@@ -1,9 +1,0 @@
----
-  - hosts: 127.0.0.1
-    tasks:
-    - name: build the image
-      docker_image: >
-         name=ubuntu_ansible
-         tag=ex1
-         path=/home/ubuntu/
-         state=present
