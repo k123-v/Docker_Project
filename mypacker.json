@@ -4,7 +4,7 @@
         "type" : "amazon-ebs",
         "region" : "us-east-1",
         "instance_type" : "t2.micro",
-        "source_ami" : " ami-00d1ab6b335f217cf",
+        "source_ami" : "ami-00d1ab6b335f217cf",
         "ssh_username" : "ubuntu",
         "ami_name" : "myfirstamipacker",
         "tags" : {
