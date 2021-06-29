@@ -32,7 +32,7 @@
          "apt-cache policy docker-ce",
          "sudo apt install docker-ce -y",
          "sudo docker version",
-         "sudo apt install pip",
+         "sudo apt install pip -y",
          "pip install docker"
         ]
     }
