@@ -18,10 +18,10 @@
     {
         "type" : "shell",
         "inline": [
-         "sudo apt install pip -y > pack_info.txt",
          "sudo apt install software-properties-common",
          "sudo apt-add-repository --yes --update ppa:ansible/ansible",
          "sudo apt update",
+         "sudo apt install pip -y > pack_info.txt",
          "sudo apt install ansible -y",
          "sudo su",
          "cd /etc/ansible",
