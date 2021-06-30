@@ -20,7 +20,7 @@
         "inline": [
          "sudo apt install software-properties-common",
          "sudo apt-add-repository --yes --update ppa:ansible/ansible",
-         "sudo apt update",
+         "sudo apt update > new_update.txt",
          "sudo apt install pip -y > pack_info.txt",
          "sudo apt install ansible -y",
          "sudo apt install python-dockerpty -y",
