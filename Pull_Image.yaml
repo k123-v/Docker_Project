@@ -1,0 +1,7 @@
+---
+  - hosts: webserver
+    tasks:
+	- name: pull ubuntu image
+	  docker_image:
+	    name: ubuntu
+  
