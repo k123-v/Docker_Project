@@ -1,5 +1,5 @@
 ---
-  - hosts: webserver
+  - hosts: 127.0.0.1
     tasks:
     - name: pull ubuntu image
       docker_image:
